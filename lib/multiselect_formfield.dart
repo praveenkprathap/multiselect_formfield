@@ -65,6 +65,7 @@ class MultiSelectFormField extends FormField<dynamic> {
 
             return InkWell(
               onTap: () async {
+                print("ontappped");
                 List initialSelected = state.value;
                 if (initialSelected == null) {
                   initialSelected = List();
