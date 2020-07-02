@@ -126,11 +126,11 @@ class MultiSelectFormField extends FormField<dynamic> {
                                 ),
                               )
                               : Container(),
-                          Icon(
-                            Icons.arrow_drop_down,
-                            color: Colors.black87,
-                            size: 25.0,
-                          ),
+                          // Icon(
+                          //   Icons.arrow_drop_down,
+                          //   color: Colors.black87,
+                          //   size: 25.0,
+                          // ),
                         ],
                       ),
                     ),
